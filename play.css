@@ -1,0 +1,84 @@
+body{
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 1000px;
+    }
+
+
+.play-card{
+ width: 350px;
+ border:1px solid white;
+ padding: 5px;
+ border-radius: 8px;
+ 
+}
+.play-card p{
+ display: flex;
+ justify-content: center;
+}
+.result-div{
+ display: flex;
+ flex-direction: row;
+ gap: 0px;
+ justify-content: center;
+}
+
+
+
+.fighters{
+ display: flex;
+ flex-direction: row;
+}
+
+.fighters img{
+ width: 50px;
+}
+
+.player-choice, .score-div, .end-div{
+ display: flex;
+ flex-direction: row;
+ align-items: top;
+ justify-content: space-around;
+ margin-top: 10px;
+}
+
+.choiceBtn{
+ border:1px solid white;
+ border-radius: 45px;
+ width: 90px;
+ height: 90px;
+ background-color: transparent;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
+
+.choiceBtn:hover,  .end-btn:hover{
+ background-color: rgba(255,255,255, 0.1);
+}
+
+
+.choiceBtn img{
+ width: 50px;
+}
+
+
+.status-div p{
+ background-color: green;
+ padding: 10px 0px;
+ border-radius: 8px;
+}
+
+
+.end-btn {
+ background-color: transparent;
+ color: white;
+ border: 1px solid white;
+ padding: 20px;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
+
